@@ -63,3 +63,46 @@ Create a .env file and add your Supabase credentials:
 ```bash
 npm run dev 
 ```
+
+# 🖥️ Screenshots
+
+<div align="center">
+  <figure>
+     <figcaption>🏠 Home Page </figcaption>
+    <br>
+     <br>
+    <img src="./public/home.png" alt="Home Page" width="70%" style="border-radius: 10px;"/>
+  </figure>
+<br>
+ <br>
+  <figure>
+   <figcaption>📊 Industry Insights.</figcaption>
+     <br>
+       <br>
+    <img src="./public/industryInsights.png" alt="insights" width="70%" style="border-radius: 10px;"/>
+  </figure>
+ <br>
+ <br>
+ 
+  <figure>
+       <figcaption>📝 Resume Builder.</figcaption>
+     <br>
+    <br>
+    <img src="./public/resume.png" alt="resume" width="70%" style="border-radius: 10px;"/>
+  </figure>
+ 
+   <br>
+ <br>
+  <figure>
+          <figcaption>📈 Cover Letter Builder </figcaption>
+       <br>
+ <br>
+    <img src="./public/coverLetter.png" alt="cover" width="70%" style="border-radius: 10px;"/>
+  </figure>
+
+</div>
+
+
+
+
+
