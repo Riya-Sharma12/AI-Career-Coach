@@ -125,7 +125,7 @@ export default function Home() {
                         <Image
                           width={40}
                           height={40}
-                          src={testimonial.js}
+                          src={testimonial.image}
                           alt={testimonial.author}
                           className="rounded-full object-cover border-2 border-primary/20"
                         />
