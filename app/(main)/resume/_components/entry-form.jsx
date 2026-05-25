@@ -76,16 +76,14 @@ export function EntryForm({ type, entries, onChange }) {
     error: improveError,
   } = useFetch(improveWithAI);
 
-  // Add this effect to handle the improvement result
+  // Handle the improvement result
   useEffect(() => {
     if (improvedContent && !isImproving) {
       setValue("description", improvedContent);
       toast.success("Description improved successfully!");
     }
-    if (improveError) {
-      toast.error(improveError.message || "Failed to improve description");
-    }
-  }, [improvedContent, improveError, isImproving, setValue]);
+    // Note: error toast is already handled by useFetch — don't duplicate it here
+  }, [improvedContent, isImproving, setValue]);
 
   // Replace handleImproveDescription with this
   const handleImproveDescription = async () => {

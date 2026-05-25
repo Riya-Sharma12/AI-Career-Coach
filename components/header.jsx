@@ -52,12 +52,12 @@ await checkUser();
                 </Link>
             
             <DropdownMenu>
-  <DropdownMenuTrigger>
-  <Button>
-                    <StarsIcon className='h-4 w-4' />
-                    <span className="hidden md:block">Growth Tools</span>
-                    <ChevronDown className='h-4 w-4' />
-                </Button>
+  <DropdownMenuTrigger asChild>
+    <Button>
+      <StarsIcon className='h-4 w-4' />
+      <span className="hidden md:block">Growth Tools</span>
+      <ChevronDown className='h-4 w-4' />
+    </Button>
   </DropdownMenuTrigger>
   <DropdownMenuContent>
  
